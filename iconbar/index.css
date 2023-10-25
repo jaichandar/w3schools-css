@@ -1,0 +1,38 @@
+.parent-body {
+    width: 550px;
+    height: 60px;
+
+    display: flex;
+}
+
+.child {
+    flex: 1;
+    background-color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease;
+}
+
+.child i {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.child:hover {
+    background: #000;
+    cursor: pointer;
+}
+
+.active {
+    background: #04AA6D;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active i {
+    font-size: 1.5rem;
+    color: white;
+}
